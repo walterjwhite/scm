@@ -1,0 +1,5 @@
+group = 'com.walterjwhite.modules.ssh.api'
+description = 'SSH - API - model'
+dependencies {
+  compile project(':infrastructure:datastore:api:model')
+}
