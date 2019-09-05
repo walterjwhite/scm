@@ -1,7 +1,7 @@
-package com.walterjwhite.scm.api;
+package com.walterjwhite.ssh.api;
 
-import com.walterjwhite.scm.api.model.SCMConfiguration;
-import com.walterjwhite.scm.api.model.SCMTag;
+import com.walterjwhite.ssh.api.model.SCMConfiguration;
+import com.walterjwhite.ssh.api.model.SCMTag;
 
 public interface SCMService {
   void checkout(SCMConfiguration scmConfiguration) throws Exception;

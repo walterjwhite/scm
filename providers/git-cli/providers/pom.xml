@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.walterjwhite.java.modules.scm.providers</groupId>
     <artifactId>git-cli</artifactId>
-    <version>0.0.15-SNAPSHOT</version>
+    <version>0.0.17-SNAPSHOT</version>
   </parent>
   <groupId>com.walterjwhite.java.modules.scm.providers.git-cli</groupId>
   <artifactId>providers</artifactId>
-  <version>0.0.15-SNAPSHOT</version>
+  <version>0.0.17-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>scm - providers - git-cli - providers</name>
   <description>scm git-cli</description>
@@ -19,7 +19,7 @@
     <dependency>
       <groupId>com.walterjwhite.java.modules.scm.providers.git-cli</groupId>
       <artifactId>impl</artifactId>
-      <version>0.0.15-SNAPSHOT</version>
+      <version>0.0.17-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>

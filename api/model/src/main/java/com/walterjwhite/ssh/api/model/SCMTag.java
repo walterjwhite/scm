@@ -1,4 +1,4 @@
-package com.walterjwhite.scm.api.model;
+package com.walterjwhite.ssh.api.model;
 
 import java.time.LocalDateTime;
 import lombok.Builder;

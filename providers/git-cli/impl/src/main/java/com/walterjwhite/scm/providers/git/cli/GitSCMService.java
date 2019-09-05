@@ -1,10 +1,10 @@
 package com.walterjwhite.scm.providers.git.cli;
 
-import com.walterjwhite.scm.api.SCMService;
-import com.walterjwhite.scm.api.model.SCMConfiguration;
-import com.walterjwhite.scm.api.model.SCMTag;
 import com.walterjwhite.shell.api.service.ShellExecutionService;
 import com.walterjwhite.shell.impl.service.ShellCommandBuilder;
+import com.walterjwhite.ssh.api.SCMService;
+import com.walterjwhite.ssh.api.model.SCMConfiguration;
+import com.walterjwhite.ssh.api.model.SCMTag;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import javax.inject.Inject;
