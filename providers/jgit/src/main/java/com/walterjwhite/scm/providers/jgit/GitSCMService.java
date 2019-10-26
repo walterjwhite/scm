@@ -19,7 +19,7 @@ import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
 // TODO: this API supports diffing, that would be useful for performing delta builds (only doing *
 // what changed).
 // https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/porcelain/CloneRemoteRepository.java
-public class GitSCMService implements SCMService {
+public class JGitGitSCMService implements SCMService {
 
   @Inject
   public GitSCMService(
